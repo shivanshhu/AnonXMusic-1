@@ -30,16 +30,16 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❣ Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ ❣",
+                text="☃ Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ ☃",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="❣ Hᴇʟᴘ ❣", callback_data="settings_back_helper"
+                text="⁂ Hᴇʟᴘ ⁂", callback_data="settings_back_helper"
             ),
             InlineKeyboardButton(
-                text="❣ Oᴡɴᴇʀ ❣", user_id=OWNER
+                text="♡ Oᴡɴᴇʀ ♡", user_id=OWNER
             )
         ],
      ]
